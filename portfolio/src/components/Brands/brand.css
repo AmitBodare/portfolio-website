@@ -1,0 +1,42 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; 
+    max-width: 75rem;
+    margin: 1rem auto;
+    padding: 2rem;
+  }
+  
+  .social-icon {
+    color: white; 
+    text-decoration: none;
+    margin: 1rem 1rem; 
+    transition: color 0.2s;
+    justify-content: center;
+    
+                  
+    
+  }
+  
+  .social-icon:hover {
+    color: #0077B5; 
+  }
+  
+  .section-padding {
+    padding: 0 5rem;
+  }
+
+  @media screen and (max-width:700px) {
+    .section-padding {
+      padding: 1rem;
+      justify-content: center;
+      width: 50vw;
+      max-width: 50rem;
+    }
+
+    .social-icon {
+      justify-content: center;
+      margin: 0.5rem 0.5rem;
+    }
+  }
